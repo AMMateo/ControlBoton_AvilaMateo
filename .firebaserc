@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "proyecto1-cce80": {
+      "hosting": {
+        "app": [
+          "proyecto1-cce80"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "proyecto1-cce80"
+  }
+}

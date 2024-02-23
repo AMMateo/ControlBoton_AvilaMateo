@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true">
+  <div class="vertical-container">
+    <ion-card class="contenido">
+      <ion-button fill="clear" (click)="toggle1()" [color]="buttonColorOn(control)" class="custom-button">
+        <ion-icon slot="icon-only" name="{{ control ? 'power' : 'power-outline' }}" [color]="buttonColorOn(control)"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <ion-card class="contenido">
+      <ion-button fill="clear" (click)="toggle2()" [color]="buttonColorOn(on2)" class="custom-button">
+        <ion-icon slot="icon-only" name="{{ on2 ? 'power' : 'power-outline' }}" [color]="buttonColorOn(on2)"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <ion-card class="contenido">
+      <ion-button fill="clear" (click)="toggle3()" [color]="buttonColorOn(on4)" class="custom-button">
+        <ion-icon slot="icon-only" name="{{ on4 ? 'power' : 'power-outline' }}" [color]="buttonColorOn(on4)"></ion-icon>
+      </ion-button>
+    </ion-card>
+
+    <ion-card class="contenido">
+      <ion-button fill="clear" (click)="toggleAll()" [color]="buttonColorOn(allOn)" class="custom-button">
+        <ion-icon slot="icon-only" name="{{ allOn ? 'power' : 'power-outline' }}" [color]="buttonColorOn(allOn)"></ion-icon>
+      </ion-button>
+    </ion-card>
+  </div>
+</ion-content>

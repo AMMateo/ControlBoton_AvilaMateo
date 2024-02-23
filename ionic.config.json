@@ -1,0 +1,7 @@
+{
+  "name": "ControlBoton",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
